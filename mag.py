@@ -1,11 +1,11 @@
 
 magasság =int (input ('Mennyi a magasságod?: '))
 
-if (magasság < 180):
+if (magasság < 160):
     print("Törpe vagy")
     
-elif (magasság == 180):
-    print ('Normális a magasságod')
+elif (magasság > 180):
+    print ('Zsiráf vagy')
 
 else:
-    print ("Zsiráf vagy")
+    print ("Normális a magasságod")
